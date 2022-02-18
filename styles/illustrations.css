@@ -138,3 +138,111 @@
     transform: translate(0 ,-45px);
     transition: all 0.5s ease-in-out;
 }
+
+.illustration-2{
+    margin-top: 180px;
+    margin-bottom: 180px;
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.illustration-2 .infographic{
+    width: 88%;
+    height: 757px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.illustration-2 .infographic .column{
+    width: 275px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-block{
+    display: inline-block;
+    padding: 24px 32px;
+    background: linear-gradient(143.83deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border-radius: 16px;
+}
+
+.column-block .block-title{
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.column-block .block-title .svg-title{
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+}
+
+.column-block .title-title{
+    margin-left: 24px;
+}
+
+.column-block .points{
+    margin-top: 24px;
+    list-style-type: disc; 
+}
+
+.column-block .points li {
+    margin-top: 8px;
+    color: #18D9AB;
+}
+
+.column-block .points li span{
+    color: #fff;
+}
+
+.column .two-column{
+    display: flex;
+}
+
+.illustration-2 .center-circle{
+    width: 630px;
+    height: 605px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1350px) {
+  .illustration-2 .center-circle{
+      width: 512px;
+      height: 493px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+    .illustration-2 .center-circle{
+        width: 402px;
+        height: 387px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .illustration-2 .center-circle{
+        width: 323px;
+        height: 311px;
+    }
+}
+
+
+.illustration-2 .circle-arrows{
+    width: 64%;
+}
+
