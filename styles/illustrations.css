@@ -1,0 +1,140 @@
+.illustration-1{
+    width: 100%;
+    height: 1024px;
+    background-image: url(../images/1st/back.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-1 .main-points{
+    width: 800px;
+    height: 214px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.illustration-1 .main-points .point{
+    width: 149px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    z-index: 101;
+}
+
+.illustration-1 .main-points .point .hyperlink{
+    width: 149px;
+    height: 148px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.illustration-1 .main-points .point .hyperlink .hover{
+	visibility: hidden;
+    width: 135px;
+    height: 135px;
+    background-color:#0373FE;
+    position: absolute;
+    filter: blur(50px);
+    opacity: 30%;
+}
+
+.illustration-1 .main-points .point .hyperlink:hover .hover{
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.illustration-1 .main-points .point .hyperlink:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.illustration-1 .lines{
+    width: 720px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.illustration-1 .lines .line{
+    width: 72px;
+    height: 100%;
+    background-image: url(../images/1st/line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    position:relative;
+    bottom: 16px;
+}
+
+.illustration-1 .main-points .point .hyperlink:hover .line{
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.managed-services{
+    width: 1026px;
+    height: 144px;
+    background-image: url(../images/1st/managed\ services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.managed-services:hover{
+    background-image: url(../images/1st/hover1.png);
+    transform: translate(0 ,-35px);
+    transition: all 0.5s ease-in-out;
+}
+
+.next-generation{
+    width: 1104px;
+    height: 131px;
+    background-image: url(../images/1st/next\ generation\ solutions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    transform: translate(0 ,-10px);
+    z-index: 89;
+}
+
+.next-generation:hover{
+    background-image: url(../images/1st/hover2.png);
+    transform: translate(0 ,-35px);
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom-green{
+    width: 1047px;
+    height: 227px;
+    background-image: url(../images/1st/bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    transition: all 0.5s ease-in-out;
+    transform: translate(0 ,-20px);
+}
+
+.bottom-green:hover{
+    transform: translate(0 ,-45px);
+    transition: all 0.5s ease-in-out;
+}
