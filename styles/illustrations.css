@@ -95,7 +95,6 @@
 	background-position: center;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-    z-index: 105;
 }
 
 .managed-services:hover{
@@ -114,7 +113,7 @@
     transition: all 0.5s ease-in-out;
     cursor: pointer;
     transform: translate(0 ,-10px);
-    z-index: 89;
+    z-index: 80;
 }
 
 .next-generation:hover{
@@ -141,7 +140,7 @@
 
 .illustration-2{
     margin-top: 180px;
-    margin-bottom: 180px;
+    margin-bottom: 80px;
     width: 100%;
     height: 1024px;
     display: flex;
@@ -210,39 +209,190 @@
 }
 
 .illustration-2 .center-circle{
-    width: 630px;
-    height: 605px;
+    position: relative;
+}
+
+.illustration-2 .center-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+}
+
+.illustration-3{
+    margin-top: 180px;
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.illustration-3 .methods{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.illustration-3 .methods .method{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.illustration-3 .methods .method .method-svg{
+    width: 75px;
+    height: 75px;
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-@media only screen and (max-width: 1350px) {
-  .illustration-2 .center-circle{
-      width: 512px;
-      height: 493px;
-  }
+.illustration-3 .methods .method .method-name{
+    margin-left: 16px;
 }
 
-@media only screen and (max-width: 1220px) {
-    .illustration-2 .center-circle{
-        width: 402px;
-        height: 387px;
-    }
+.illustration-3 .infographic{
+    width: 88%;
+    height: 755px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 124px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .illustration-2 .center-circle{
-        width: 323px;
-        height: 311px;
+@media only screen and (max-width: 1280px) {
+    .illustration-3 .infographic{
+        height: 600px;
     }
 }
 
 
-.illustration-2 .circle-arrows{
-    width: 64%;
+@media only screen and (max-width: 1040px) {
+    .illustration-3 .infographic{
+        height: 520px;
+    }
+}
+
+
+
+.illustration-3 .back{
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+
+.illustration-3 .back .hover-blue{
+    height: 80%;
+    width: 50%;
+    background: linear-gradient(180deg, #4CD4FF 0%, #42FFFF 100%);
+    filter: blur(80px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 10%;
+    visibility: hidden;
+	transition: all 0.2s ease-in-out;
+}
+
+.illustration-3 .back:hover .hover-blue{
+    visibility: visible;
+	transition: all 1s ease-in-out;
+}
+
+.illustration-3 .orange{
+    height: 100%;
+    position: absolute;
+    right: 12%;
+}
+
+.illustration-3 .hover-orange{
+	transition: all 0.2s ease-in-out;
+    height: 100%;
+    width: 50%;
+    background: #FE9549;
+    filter: blur(80px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 10%;
+    visibility: hidden;
+}
+
+.illustration-3 .orange:hover .hover-orange{
+    visibility: visible;
+	transition: all 1s ease-in-out;
+}
+
+
+.illustration-3 .method-circles{
+    width: 42%;
+    height: 77%;
+    position: relative;
+    top: 10%;
+    left: 33%;
+}
+
+.illustration-3 .front{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.illustration-3 .hover-blue2{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #4CD4FF 0%, #42FFFF 100%);
+    filter: blur(80px);
+    position: absolute;
+    top: 0;
+    opacity: 10%;
+    visibility: hidden;
+	transition: all 0.2s ease-in-out;
+}
+
+.illustration-3 .front:hover .hover-blue2{
+    visibility: visible;
+	transition: all 1s ease-in-out;
+}
+
+.illustration-3 .method-circles .method-5{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(-0%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    left: 34%;
+    }
+.illustration-3 .method-circles .method-4{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(-0%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    left: 23%;
+}
+.illustration-3 .method-circles .method-3{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(-0%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    left: 14%;
+}
+.illustration-3 .method-circles .method-2{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(-0%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    left: 6%;
+}
+.illustration-3 .method-circles .method-1{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(-0%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+    left: 0;
+}
+
+.illustration-3 .hover-white:hover{
+    filter: drop-shadow(22px 0px 22px rgba(255, 255, 255, 0.22));
 }
 
