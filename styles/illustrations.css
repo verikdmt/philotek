@@ -398,11 +398,23 @@
 
 
 
+
 /* ILLYSTRATION 4 */
 /* ILLYSTRATION 5 */
+/* ILLYSTRATION 6 */
+/* ILLYSTRATION 7 */
 
 
-.illustration-4-5{
+.illustration-4-7{
     width: 100%;
 }
+
+.illutration-points{
+    list-style: disc;
+}
+
+.illutration-points{
+    margin-left: 80px;
+}
+
 
