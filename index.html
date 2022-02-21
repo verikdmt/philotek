@@ -114,7 +114,9 @@
             <div class="line"> </div>
             <div class="line"> </div>
         </div>
-       <a href="managed_services.html" target="_blank" style="z-index: 99;"><div class="managed-services"></div></a> 
+        <a href="managed_services.html" target="_blank" style="z-index: 99;">
+            <div class="managed-services"></div>
+        </a>
         <div class="next-generation"></div>
         <div class="bottom-green"></div>
     </div>
@@ -180,12 +182,32 @@
                         <h6 style="margin-left: 16px;">Contact form</h6>
                     </div>
                 </div>
+
+                <form class="form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="philotek.com">
+                    <input type="hidden" name="admin_email" value="vovadarydin@gmail.com">
+                    <input type="hidden" name="form_subject" value="Contact Us - Form">
+                    <!-- END Hidden Required Fields -->
+
+                    <input class="title" type="text" name="Name" placeholder="Name" required><br>
+                    <div class="white-line"></div>
+                    <input class="title" type="email" name="E-mail" placeholder="Email" required><br>
+                    <div class="white-line"></div>
+                    <input class="title" type="phone" name="Phone" placeholder="Phone (Optional)"><br>
+                    <div class="white-line"></div>
+                    <textarea class="message title" name="Message" rows="4" placeholder="Message" required></textarea>
+                    <div class="white-line"></div>
+                    <button type="button" class="button"><h6>submit</h6></button>
+                    <p class="body" style="margin-top: 24px;">For general questions email us at <b
+                        class="title">info@philotek.com</b></p>
+                </form>
                 <div>
 
                 </div>
             </div>
         </div>
-        
+
     </div>
     <div class="footer">
         <div class="inside-footer">
@@ -198,6 +220,6 @@
     </div>
 </body>
 <script src="main.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 </html>
