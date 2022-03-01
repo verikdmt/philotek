@@ -1,24 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* DESKTOP SIZE */
+
 body{
     background-color: 101010;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center; */
 }
 
 header{
 	position: fixed;
-    /* background-color: 101010; */
+	top: 0;
     width: 100%;
     height: 84px;
 	display: flex;
 	justify-content: center;
     align-items: center;
 	z-index: 999;
-	top: 0;
 }
 
 .active{
@@ -172,6 +170,14 @@ header{
 	justify-content: space-between;
 }
 
+.contact-us .subtitle1{
+	margin-top: 32px;
+}
+
+.contact-us .subtitle2{
+	margin-top: 24px;
+}
+
 .footer{
 	width: 100%;
 	height: 81px;
@@ -260,6 +266,74 @@ button{
 
 
 
-@media only screen and (min-width: 980px) {
-  
-  }
+
+/* MOBILE SIZE */
+
+@media screen and (max-width : 480px) {
+
+	header{
+		background-color: 101010;
+	}
+
+	.partners{
+		margin-top: 80px;
+		height: auto;
+	}
+
+	.partners .logos{
+		height: auto;
+	}
+
+	.partners .logos .logo-line{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.partners .partner{
+		height: 46px;
+		margin: 24 0;
+	}
+
+	.contact-us{
+		height: 1400px;
+		margin-top: 40px;
+	}
+
+	.contact-us .title-us{
+		height: 88px;
+	}
+
+	.forms{
+		margin-top: 80px;
+		width: 88%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.forms .location{
+		width: 100%;
+	}
+
+	.forms .contact-form{
+		margin-top: 64px;
+		width: 100%;
+	}
+
+	.contact-us .subtitle1{
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+	
+	.contact-us .subtitle2{
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.text-block .main-text{
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+
+}
