@@ -1,3 +1,15 @@
+/* @font-face {
+	font-family: "Noah Bold";
+	src: url("/font/Noah\ Head\ Bold.otf") format("opentype")
+}
+
+@font-face {
+	font-family: "Noah Regular";
+	src: url("/font/Noah\ Head\ Regular.otf") format("opentype")
+} */
+
+
+
 h1 {
 	font-family: 'Noah Head', sans-serif;
 	font-style: normal;
@@ -78,8 +90,7 @@ h6{
 	line-height: 140%;
 }
 
-
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 800px) {
     h1 {
         font-size: 56px;
     }
