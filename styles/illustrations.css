@@ -442,7 +442,7 @@
 
 /* MOBILE SIZE */
 
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 800px) {
 
 	.illustration-1{
         height: auto;
