@@ -48,23 +48,11 @@ header{
     background-size: cover;
 	background-position: center;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-}
-
-
-.top .cubes{
-	background-image: url(../images/cubes.svg);
-	background-repeat: no-repeat;
-    background-size: cover;
-	background-position: center;
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 781px;
-	height: 100%;
+	align-items: center;
+	color: #fff;
 }
 
 .title-1{
@@ -125,7 +113,6 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(../images/cubes2.svg);
 	margin-top: 40px;
 	color: #fff;
 }
@@ -203,13 +190,6 @@ header{
 	align-items: center;
 }
 
-.social-media{
-	width: 72px;
-	height: 24px;
-	display: flex;
-	justify-content: space-between;
-}
-
 .top-second{
 	width: 100%;
 	height: 95vh;
@@ -222,18 +202,6 @@ header{
 	align-items: center;
 	color: #fff;
 	text-align: center;
-}
-
-.cube-line{
-	width: 100%;
-	height: 255px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-image: url(../images/cube-line.svg);
-	background-repeat: no-repeat;
-    background-size: cover;
-	background-position: center;
 }
 
 .text-block{
