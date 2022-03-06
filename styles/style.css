@@ -226,7 +226,7 @@ header{
 
 .main-text b{
 	color: #FE9549;
-}
+} 
 
 .form{
 	width: 93.5%;
@@ -293,6 +293,9 @@ button{
 		height: 46px;
 		margin: 24 0;
 	}
+	.title-1{
+		margin-bottom: 40px;
+	}
 
 	.contact-us{
 		height: 1400px;
@@ -304,7 +307,7 @@ button{
 	}
 
 	.forms{
-		margin-top: 80px;
+		margin-top: 40px !important;
 		width: 88%;
 		height: auto;
 		display: flex;
