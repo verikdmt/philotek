@@ -264,8 +264,83 @@ button{
 	color: #FFFFFF33;
 }
 
+.solutions{
+	margin: 80 auto;
+	width: 88%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.solutions .solution-blocks{
+	width: 100%;
+	height: 208px;
+	display: flex;
+	align-items: flex-end;
+}
 
+.solutions .solution-blocks .solution{
+	width: 25%;
+	height: 176px;
+	border: 1px solid;
+	border-color: 18D9AB;
+	transition: all .5s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.solutions .solution-blocks .solution.active{
+	height: 208px!important;
+	border: none;
+}
+
+.solutions .solution-blocks .solution1.active{
+	background: linear-gradient(262deg, rgba(24, 217, 171, 0.4) -250.52%, rgba(66, 255, 255, 0.4) 91.87%);
+}
+.solutions .solution-blocks .solution2.active{
+	background: linear-gradient(261.33deg, rgba(24, 217, 171, 0.4) -161.31%, rgba(66, 255, 255, 0.4) 182.97%);
+}
+.solutions .solution-blocks .solution3.active{
+	background: linear-gradient(262.06deg, rgba(24, 217, 171, 0.4) -83.86%, rgba(66, 255, 255, 0.4) 270.36%);
+}
+.solutions .solution-blocks .solution4.active{
+	background: linear-gradient(264.8deg, rgba(24, 217, 171, 0.4) 12.84%, rgba(66, 255, 255, 0.4) 373.68%);
+}
+
+.solutions .description{
+	color: #fff;
+	padding: 40px;
+	background: linear-gradient(263.47deg, rgba(24, 217, 171, 0.4) 6.15%, rgba(66, 255, 255, 0.4) 92.95%);
+}
+
+.solutions .description .sol-name{
+	margin-bottom: 32px;
+}
+
+.solutions .description .body.bigger{
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+
+.solutions .description .italic{
+	font-style: italic;
+	margin-top: 56px;
+}
+
+.solutions .description .autor{
+	width: 100%;
+	text-align: end;
+}
+
+.solutions .description1, .description2, .description3, .description4{
+	display: none;
+}
+
+.description.active{
+	display: block;
+}
 
 /* MOBILE SIZE */
 
@@ -339,4 +414,19 @@ button{
 		margin-right: 24px;
 	}
 
+	.solutions .description .sol-name{
+		font-size: 18px;
+	}
+
+	.solutions .description .body.bigger{
+		font-size: 16px;
+	}
+
+	.solutions .description .italic{
+		margin-top: 32px;
+	}
+
+	.solutions .description{
+		padding: 24px;
+	}
 }
