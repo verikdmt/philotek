@@ -482,8 +482,9 @@
 
     .illustration-2 .infographic{
         width: 100%;
-        height: 1200px;
+/*         height: 1200px; */
         flex-direction: column;
+	height: 100%;
     }
 
     .illustration-2 .infographic .column{
